@@ -1,0 +1,6 @@
+module Pods_BLEDiscoveryApp_BLEDiscoveryAppTests {
+  umbrella header "Pods-BLEDiscoveryApp-BLEDiscoveryAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,212 @@
+0 로딩
+뷰 center_green_container
+	벡터
+	이미지
+
+1 첫화면
+뷰 middle_container
+	뷰 inner_container
+		벡터
+		텍스트 default_text_margin
+		뷰 row_container default_text_margin
+			텍스트
+			텍스트
+			텍스트
+		텍스트 default_text_margin
+		이미지 default_margin
+		버튼 default_margin, default_button
+		버튼 default_margin, default_button
+		버튼 default_margin, default_button
+		뷰 default_margin, row_container
+			텍스트버튼 
+			뷰 
+			텍스트버튼
+
+1-1 로그인
+뷰 default_white_container
+	뷰 inner_container
+		뷰 center
+			이미지
+		인풋
+		인풋
+		버튼 default_button
+		뷰 default_margin, row_container
+			텍스트버튼
+			뷰 
+			텍스트버튼
+
+1-1 -1 아이디 찾기
+뷰 default_white_container
+	뷰 inner_container
+		인풋
+		인풋 
+		인풋
+		버튼 default_button
+	바텀버튼
+
+1-1 -2 비밀번호 찾기
+뷰 default_white_container
+	뷰 inner_container
+		인풋
+		인풋
+		인풋 
+		인풋
+		버튼 default_button
+	바텀버튼
+
+2 약관동의
+뷰 default_white_container
+	뷰 inner_container
+		뷰 row_container, default_text_margin
+			텍스트
+			텍스트
+		텍스트 default_text_margin
+		텍스트 default_text_margin
+		이미지 default_margin
+		뷰 default_margin
+			체크박스
+			텍스트
+		뷰 default_margin
+			텍스트버튼 borderBottomWidth 1
+			텍스트버튼 borderBottomWidth 1
+	바텀버튼
+
+2-1 계정 정보 입력하기
+뷰 default_white_container
+	뷰 inner_container
+		인풋
+		인풋
+		인풋
+		인풋
+		인풋
+		버튼 default_button
+	바텀버튼
+
+9-1 2차 비밀번호 등록
+뷰 default_white_container
+	핀뷰( react-native-pin-view )
+
+9-1 2차 비밀번호 확인
+뷰 default_white_container
+	핀뷰( react-native-pin-view )
+
+21 메인페이지(등록된 바이크 없음)
+뷰 default_gray_container
+	뷰 inner_container
+		뷰 default_gray_container
+			텍스트인풋
+			뷰 center_gray_container
+				이미지
+				텍스트
+		뷰 center_gray_container, height 140
+			버튼 default_button
+
+3 바이크종 선택
+뷰 default_white_container
+	뷰 inner_container
+		뷰 height 20
+		뷰 row_container, default_text_margin
+			텍스트
+			텍스트
+		텍스트
+		텍스트
+		맵 : 버튼 round_button
+	바텀버튼
+
+4 바이크 정보
+뷰 default_white_container
+	뷰 inner_container
+		뷰 height 20
+		뷰 row_container, default_text_margin
+			텍스트
+			텍스트
+		텍스트
+		텍스트
+		인풋
+	바텀버튼
+
+4-1 바이크 정보(검색시)
+뷰 default_white_container
+	뷰 inner_container
+		뷰 height 20
+		뷰 row_container, default_text_margin
+			텍스트
+			텍스트
+		텍스트
+		텍스트
+		인풋
+		텍스트
+		맵
+	바텀버튼
+
+5 BABIL 등록
+뷰 default_white_container
+	뷰 inner_container
+		뷰 height 20
+		뷰 row_container, default_text_margin
+			텍스트
+			텍스트
+		텍스트
+		텍스트
+		텍스트
+		버튼 default_button
+		인풋
+	바텀버튼
+
+
+5-1 QR코드로 등록 (중간 사각형이 투명인 크기가 정사각형인 사진)
+뷰 center_white_container
+	QRCodeScanner
+	이미지 position absolute, width deviceWidth
+
+6 BABIL 조회
+뷰 center_white_container
+	텍스트
+	텍스트
+	이미지(gif)
+	텍스트
+
+9 내 바이크 등록 (바이크 이름 지정)
+뷰 default_gray_container
+	뷰 inner_container
+		뷰 default_button, background green
+			텍스트
+		인풋
+	바텀버튼
+
+10, 11 내 바이크 등록 결과
+뷰 default_gray_container
+	뷰 center_gray_container
+		이미지
+		텍스트
+		이미지
+	바텀버튼
+	바텀버튼
+
+12 메인페이지
+뷰 default_gray_container
+	뷰 inner_container
+		뷰 default_gray_container
+			텍스트인풋
+			맵
+		뷰 center_gray_container, height 140
+			버튼 default_button
+
+13 2차 비밀번호 입력
+뷰 default_white_container
+	핀뷰( react-native-pin-view )
+
+
+
+default_white_container = flex 1, backgroundColor white
+default_gray_container = flex 1, backgroundColor gray
+middle_container = flex 1, justifyContent center, backgroundColor white
+center_white_container = flex 1, justifyContent center, alignItems center, backgroundColor white
+center_green_container = flex 1, justifyContent center, alignItems center, backgroundColor green
+center_gray_container = flex 1, justifyContent center, alignItems center, backgroundColor gray
+row_container = flexDirection row
+inner_container = flex 1, marginHorizontal 20, marginVertical 20
+default_text_margin = marginTop 10
+default_margin = marginVertical 10
+default_button = height 50, borderWidth 2, borderRadius 15
+round_button = height 40, borderWidth 2, borderRadius 20

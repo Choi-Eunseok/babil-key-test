@@ -1,0 +1,10 @@
+{
+  "name": "rnFirebaseExample",
+  "displayName": "rnFirebaseExample",
+  "ios": {
+    "userInterfaceStyle": "automatic"
+  },
+  "android": {
+    "userInterfaceStyle": "automatic"
+  }
+}
